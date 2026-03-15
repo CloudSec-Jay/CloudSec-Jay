@@ -2,13 +2,18 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=435&lines=Jason+Tribble" alt="Typing SVG" />
 
-### Cloud Security Engineer
+### Cloud ML/AI Security Engineer
 
 *Infrastructure instincts. Security depth. Built from the data center floor up.*
 
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/jt92)
 &nbsp;
 [![Portfolio](https://img.shields.io/badge/Portfolio-cloud--security--engineer-58A6FF?style=flat&logo=github&logoColor=white)](https://github.com/CloudSec-Jay/cloud-security-engineer)
+
+![OWASP LLM](https://img.shields.io/badge/OWASP-LLM_Top_10-000000?style=flat-square&logo=owasp&logoColor=white)
+![MITRE ATLAS](https://img.shields.io/badge/MITRE-ATLAS-E4002B?style=flat-square)
+![OWASP](https://img.shields.io/badge/OWASP-Top_10:2025-000000?style=flat-square&logo=owasp&logoColor=white)
+![MITRE ATT&CK](https://img.shields.io/badge/MITRE-ATT%26CK_Cloud-E4002B?style=flat-square)
 
 </div>
 
@@ -18,30 +23,30 @@
 
 <table>
 <tr>
-<th align="center">🛡️ PREVENT</th>
-<th align="center">🔍 DETECT</th>
-<th align="center">⚡ RESPOND</th>
+<th align="center">🤖 AI/ML SECURITY</th>
+<th align="center">🛡️ CLOUD FOUNDATION</th>
+<th align="center">🔍 DETECT & RESPOND</th>
 </tr>
 <tr>
 <td align="center">
+MCP attack surface · Tool poisoning<br>
+Prompt injection · Agent over-privilege<br>
+Model supply chain · MLOps integrity
+</td>
+<td align="center">
 Terraform · CloudFormation · Bicep<br>
-Packer · Docker · Ansible<br>
-OPA / Rego · Checkov · Trivy
+Packer · Docker · Ansible · OPA/Rego<br>
+Checkov · Trivy · Cosign SBOM
 </td>
 <td align="center">
 Wazuh XDR / SIEM · CIS SCA<br>
-GuardDuty · Entra ID Protection<br>
-MITRE-tagged rules · FIM Whodata
-</td>
-<td align="center">
-Active Response · IR Playbooks<br>
-Falco eBPF · Execution Allowlisting<br>
-Auto-Remediation via Ansible
+MITRE-tagged rules · FIM Whodata<br>
+Active Response · IR Playbooks
 </td>
 </tr>
 <tr>
 <td colspan="3" align="center">
-<a href="https://owasp.org/www-project-top-ten/"><strong>OWASP Top 10:2025</strong></a> · <a href="https://attack.mitre.org/matrices/enterprise/cloud/"><strong>MITRE ATT&CK</strong></a> · <a href="https://www.nist.gov/cyberframework"><strong>NIST CSF 2.0</strong></a> · <a href="https://www.cisecurity.org/controls/v8"><strong>CIS Controls v8.1</strong></a>
+<a href="https://owasp.org/www-project-top-10-for-large-language-model-applications/"><strong>OWASP LLM Top 10</strong></a> · <a href="https://atlas.mitre.org/"><strong>MITRE ATLAS</strong></a> · <a href="https://owasp.org/www-project-top-ten/"><strong>OWASP Top 10:2025</strong></a> · <a href="https://attack.mitre.org/matrices/enterprise/cloud/"><strong>MITRE ATT&CK</strong></a>
 </td>
 </tr>
 </table>
@@ -50,22 +55,21 @@ Auto-Remediation via Ansible
 
 ---
 
-I design and build security controls across AWS and Azure — policy-as-code that blocks misconfigurations before they reach production, detection rules that catch threats with full MITRE attribution, and response automation that doesn't wait for a human to click. Ten years in Data Center Operations means I understand infrastructure from the physical layer up: when I write a Terraform module or tune a Wazuh rule, I know exactly what it's protecting and why it matters.
+Cloud ML/AI security — securing agents, LLM applications, MCP servers, and the MLOps pipelines that run them. The cloud security foundation (IAM, containers, detection, IaC) exists because AI systems run on cloud infrastructure. You can't secure the application layer without understanding what's underneath it.
 
-Every artifact in this portfolio is mapped to OWASP Top 10:2025, MITRE ATT&CK, NIST CSF 2.0, and CIS Controls v8.1 — not as an afterthought, but as the design constraint.
+Ten years in Data Center Operations means I understand infrastructure from the physical layer up. Zero Trust here means scope, not deny — every control bounds what a user or agent can do to their role and context.
 
 ---
 
 ### 📌 Featured
-<!--
+
 <a href="https://github.com/CloudSec-Jay/cloud-security-engineer">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=CloudSec-Jay&repo=cloud-security-engineer&theme=github_dark&hide_border=true" />
 </a>
--->
 
 <br><br>
 
-**[cloud-security-engineer](https://github.com/CloudSec-Jay/cloud-security-engineer)** — Multi-cloud security portfolio spanning AWS and Azure. Includes a 6-stage Security Gauntlet CI pipeline (Checkov, TFLint, Trivy, tfsec, OPA, Gitleaks), Terraform modules with Zero Trust network design (IMDSv2, private-only compute, SSM access), Wazuh XDR with live-proven FIM whodata detections, CIS SCA policies across RHEL 9 and Ubuntu 22.04, and 13 threat-hunting and ML detection notebooks. Everything is interview-defensible at the design-decision level.
+**[cloud-security-engineer](https://github.com/CloudSec-Jay/cloud-security-engineer)** — Cloud ML/AI security portfolio. Primary focus: MCP attack surface, prompt injection, agent over-privilege, model supply chain integrity. Foundation: 10-job DevSecOps pipeline (Checkov, TFLint, Trivy, OPA, Gitleaks, and more), Terraform AWS platform with Zero Trust network design, Wazuh XDR with live-proven FIM detections, CIS SCA across RHEL 9 and Ubuntu, and 13 threat-hunting/ML detection notebooks. Every artifact maps to OWASP LLM Top 10, MITRE ATLAS, or ATT&CK — not as an afterthought, but as the design constraint.
 
 ---
 
@@ -73,15 +77,17 @@ Every artifact in this portfolio is mapped to OWASP Top 10:2025, MITRE ATT&CK, N
 <summary><strong>🧰 Full Tech Stack</strong></summary>
 <br>
 
-**Cloud & Identity** — AWS · Azure · Microsoft Entra ID
+**AI/ML Security** — MCP (Model Context Protocol) · Agent security · Prompt injection · LLM API security · Model supply chain (SHA256 + Sigstore)
+
+**Cloud & Identity** — AWS · Azure · Microsoft Entra ID · Agent IAM (service identities, tool-scoped permissions)
 
 **IaC (7 tools)** — Terraform · CloudFormation · Bicep · Packer · Docker · Ansible · OPA/Rego
 
-**Security Scanning** — Checkov · tfsec · TFLint · Trivy · cfn-lint · cfn-nag · ansible-lint · Hadolint · Gitleaks · Semgrep
+**Security Scanning** — Checkov · TFLint · Trivy · cfn-lint · ansible-lint · Hadolint · Gitleaks · Semgrep
 
 **Languages** — Python · PowerShell · Bash · HCL · Rego
 
-**Frameworks** — OWASP Top 10:2025 · MITRE ATT&CK v16 · NIST CSF 2.0 · CIS Controls v8.1
+**Frameworks** — OWASP LLM Top 10 · MITRE ATLAS · OWASP Top 10:2025 · MITRE ATT&CK Cloud · STRIDE
 
 </details>
 
@@ -91,13 +97,13 @@ Every artifact in this portfolio is mapped to OWASP Top 10:2025, MITRE ATT&CK, N
 
 | Domain | What's Built | Status |
 |--------|-------------|--------|
-| IaC Security | Terraform AWS platform (compute + networking + IAM modules), Security Gauntlet CI — 6 scanners, Checkov + TFLint + Trivy all green | 🔨 Building |
-| Detection Engineering | Wazuh XDR — CIS SCA (RHEL 9, Ubuntu 22.04), 12 MITRE-tagged rules, live whodata FIM proof, active response pipeline | 🔨 Building |
-| Security Analytics | 13 Jupyter notebooks — credential access hunting, lateral movement, C2 beaconing, ML anomaly detection (IsolationForest), NLP phishing | 🔨 Building |
-| Identity & Access | AWS IAM least-privilege modules, Azure Entra ID scaffold (Conditional Access, PIM JIT, KQL detections) | 🔨 Building |
-| Application Security | DVWA purple team lab, OWASP Top 10 attack scenarios, Burp Suite methodology | 🔨 Building |
-| Cloud Integrations | GuardDuty → Wazuh, CloudTrail, VPC Flow Logs, Entra ID sign-in monitoring (S3 pull + Graph API) | 🔨 Building |
-| Supply Chain | Python checksum validator (OWASP A08, MITRE T1195.002), SBOM scaffold | 🔨 Building |
+| AI/ML Security | Agent security, MCP attack surface, prompt injection lab, LLM attacks (OWASP LLM Top 10), MLOps threat model | 🔨 Building |
+| Supply Chain | Unified: code + container + model integrity — checksum validator (T1195.002), cosign SBOM, model weight verification | 🔨 Building |
+| Identity & Access | AWS SCPs (6 controls), permission boundaries (15 priv-esc paths blocked), agent IAM (service identities), Azure Entra ID scaffold | 🔨 Building |
+| Detection Engineering | Wazuh XDR — CIS SCA (RHEL 9, Ubuntu 22.04), MITRE-tagged rules, live whodata FIM, active response pipeline | 🔨 Building |
+| Infrastructure | Terraform AWS platform, Security Gauntlet CI (10 jobs), 3 hardened containers published + cosign signed | 🔨 Building |
+| Security Analytics | 13 Jupyter notebooks — credential access hunting, lateral movement, C2 beaconing, ML anomaly detection | 🔨 Building |
+| Red Team | Purple team scenarios (DVWA + Juice Shop), Burp Suite methodology, TLS/mTLS OpenSSL lab | 🔨 Building |
 
 </details>
 
