@@ -148,6 +148,11 @@ Ten years in Data Center Operations means I understand infrastructure from the p
 <sub><b>AWS Cloud Practitioner</b></sub>
 </td>
 <td align="center" width="110">
+<a href="https://www.credly.com/earner/earned/badge/51ff7ee7-3f54-4924-88fe-df588a3cbb0b">
+<img src="https://images.credly.com/size/400x400/images/5750aba6-98f3-43dd-b2d0-3d5a5d11edfd/blob" width="90" alt="Chainguard AI/ML Guardian" /></a><br>
+<sub><b>Chainguard AI/ML Guardian</b></sub>
+</td>
+<td align="center" width="110">
 <a href="https://www.wgu.edu">
 <img src="https://www.wgu.edu/etc.clientlibs/wgu/clientlibs/clientlib-site/resources/images/wgu-logo.svg" width="90" alt="Western Governors University" /></a><br>
 <sub><b>WGU</b></sub>
