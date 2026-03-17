@@ -138,6 +138,8 @@ Ten years in Data Center Operations means I understand infrastructure from the p
 <img src="https://images.credly.com/images/242902b5-f527-42ad-865e-977c9e1b5b58/image.png" width="90" alt="Cisco Ethical Hacker" /></a><br>
 <sub><b>Cisco Ethical Hacker</b></sub>
 </td>
+</tr>
+<tr>
 <td align="center" width="110">
 <img src="https://images.credly.com/images/be8fcaeb-c769-4858-b567-ffaaa73ce8cf/image.png" width="90" alt="AZ-900" /><br>
 <sub><b>AZ-900</b></sub>
