@@ -1,5 +1,7 @@
 <div align="center">
 
+![banner](./assets/banner.svg)
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&repeat=true&width=435&lines=Jason+Tribble" alt="Typing SVG" />
 
 ### Cloud ML/AI Security Engineer
@@ -57,7 +59,7 @@ Active Response · IR Playbooks
 
 Cloud ML/AI security — securing agents, LLM applications, MCP servers, and the MLOps pipelines that run them. The cloud security foundation (IAM, containers, detection, IaC) exists because AI systems run on cloud infrastructure. You can't secure the application layer without understanding what's underneath it.
 
-Ten years in Data Center Operations means I understand infrastructure from the physical layer up. Zero Trust here means scope, not deny — every control bounds what a user or agent can do to their role and context.
+A year in Data Center Operations means I understand infrastructure from the physical layer up. Zero Trust here means scope, not deny — every control bounds what a user or agent can do to their role and context.
 
 ---
 

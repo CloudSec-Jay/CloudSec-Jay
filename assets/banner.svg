@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="200" viewBox="0 0 860 200">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#111010"/>
+      <stop offset="100%" style="stop-color:#1a1917"/>
+    </linearGradient>
+    <!-- Hex pattern -->
+    <pattern id="hexPat" x="0" y="0" width="52" height="60" patternUnits="userSpaceOnUse">
+      <polygon points="26,2 50,15 50,45 26,58 2,45 2,15"
+               fill="none" stroke="rgba(212,168,67,0.18)" stroke-width="0.8"/>
+      <polygon points="26,32 50,45 50,75 26,88 2,75 2,45"
+               fill="none" stroke="rgba(212,168,67,0.10)" stroke-width="0.8"/>
+    </pattern>
+    <linearGradient id="hexFade" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="40%" style="stop-color:#111010;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#111010;stop-opacity:0"/>
+    </linearGradient>
+    <mask id="hexMask">
+      <rect width="860" height="200" fill="url(#hexFade)"/>
+    </mask>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="200" fill="url(#bgGrad)" rx="12"/>
+
+  <!-- Left accent bar -->
+  <rect x="0" y="0" width="4" height="200" fill="#d4a843" rx="2"/>
+
+  <!-- Hex grid (right side, masked) -->
+  <rect width="860" height="200" fill="url(#hexPat)" mask="url(#hexMask)" opacity="1"/>
+
+  <!-- whoami(); -->
+  <text x="30" y="52" font-family="'Courier New', monospace" font-size="13" font-weight="500" fill="#a89880">whoami();</text>
+
+  <!-- Name -->
+  <text x="28" y="105" font-family="'Courier New', monospace" font-size="52" font-weight="800" letter-spacing="-2" fill="#d4a843">Jason Tribble.</text>
+
+  <!-- Tagline -->
+  <text x="30" y="132" font-family="'Courier New', monospace" font-size="15" fill="#a89880">Cloud ML/AI Security Engineer</text>
+
+  <!-- Badges -->
+  <!-- OWASP LLM Top 10 -->
+  <rect x="30" y="148" width="130" height="22" rx="4" fill="rgba(212,168,67,0.08)" stroke="rgba(212,168,67,0.35)" stroke-width="0.8"/>
+  <text x="95" y="163" font-family="'Courier New', monospace" font-size="10" fill="#d4b870" text-anchor="middle">OWASP LLM Top 10</text>
+
+  <!-- MITRE ATLAS -->
+  <rect x="168" y="148" width="100" height="22" rx="4" fill="rgba(224,85,85,0.08)" stroke="rgba(224,85,85,0.35)" stroke-width="0.8"/>
+  <text x="218" y="163" font-family="'Courier New', monospace" font-size="10" fill="#e08080" text-anchor="middle">MITRE ATLAS</text>
+
+  <!-- Zero Trust -->
+  <rect x="276" y="148" width="88" height="22" rx="4" fill="rgba(79,168,224,0.08)" stroke="rgba(79,168,224,0.35)" stroke-width="0.8"/>
+  <text x="320" y="163" font-family="'Courier New', monospace" font-size="10" fill="#7dc8f0" text-anchor="middle">Zero Trust</text>
+
+  <!-- DevSecOps -->
+  <rect x="372" y="148" width="88" height="22" rx="4" fill="rgba(62,207,142,0.08)" stroke="rgba(62,207,142,0.35)" stroke-width="0.8"/>
+  <text x="416" y="163" font-family="'Courier New', monospace" font-size="10" fill="#3ecf8e" text-anchor="middle">DevSecOps</text>
+</svg>
