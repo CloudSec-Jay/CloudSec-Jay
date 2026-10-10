@@ -1,4 +1,4 @@
-<<div align="center">
+<div align="center">
 
 # Jason Tribble
 
@@ -7,7 +7,8 @@
 *Infrastructure operations, automation, and reliability—from the data center to the cloud.*
 
 [LinkedIn](https://linkedin.com/in/jt92) ·
-[Cloud Operations Portfolio](https://github.com/CloudSec-Jay/cloud-ops-engineering) ·
+[Live Cloud Operations Portfolio](https://cloudsec-jay.github.io/cloud-ops-engineering/) ·
+[Portfolio Source](https://github.com/CloudSec-Jay/cloud-ops-engineering) ·
 [Credly](https://www.credly.com/users/jason-tribble)
 
 </div>
@@ -18,4 +19,4 @@ Data center operations professional building secure, reliable cloud infrastructu
 
 **Core technologies:** AWS · Linux · Docker · Kubernetes · Ansible · CloudFormation · Terraform · GitHub Actions
 
-**Current portfolio:** [cloud-ops-engineering](https://github.com/CloudSec-Jay/cloud-ops-engineering)
+**Current portfolio:** [Open the live Cloud Operations site](https://cloudsec-jay.github.io/cloud-ops-engineering/) · [View the source repository](https://github.com/CloudSec-Jay/cloud-ops-engineering)
